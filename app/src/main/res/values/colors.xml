@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E50B0B</color>
+    <color name="colorPrimaryDark">#CF0B0B</color>
+    <color name="colorAccent">#A66E6E</color>
+    <color name="colorConnect">#0A0909</color>
+    <color name="colorConnectText">#FFFFFF</color>
+    <color name="colorLineConnectAndPassword">#948F8F </color>
+    <color name="colorBlue">#948F </color>
+    <color name="colorGreen">#7f2 </color>
+</resources>

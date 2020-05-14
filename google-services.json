@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "541886792717",
+    "firebase_url": "https://projettech-958b8.firebaseio.com",
+    "project_id": "projettech-958b8",
+    "storage_bucket": "projettech-958b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541886792717:android:e71c6a84d9cc6800630144",
+        "android_client_info": {
+          "package_name": "fr.isen.dobosz.projet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541886792717-djrvlagp3ajieudq337f29ubutkueu4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.isen.dobosz.projet",
+            "certificate_hash": "5962540ec429314600cf098019a765052bba4828"
+          }
+        },
+        {
+          "client_id": "541886792717-gbs2jpfkguugsqmb5asq467p427pfklo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_fjLF3VMZCP3YbyikxoRCbsgaNKJMJwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541886792717-gbs2jpfkguugsqmb5asq467p427pfklo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Medical Desertification</string>
+    <string name="connection">Connexion</string>
+    <string name="subscribe">S\'inscrire</string>
+    <string name="this_is_imageview">Image</string>
+    <string name="prompt_email">Nom d\'utilisateur</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="invalid_username">Nom d\'utilisateur invalide</string>
+    <string name="invalid_password">Mot de passe invalide</string>
+    <string name="login_failed">"Connexion échouée"</string>
+    <string name="apply">Se connecter</string>
+    <string name="hello">Bonjour</string>
+    <string name="life_cycle">Cycle de vie</string>
+    <string name="save">Sauvegarde</string>
+    <string name="permissions">Permissions</string>
+    <string name="web_services">Webservices</string>
+    <string name="this_is_life_cycle_view">Bouton cycle de vie</string>
+    <string name="this_is_save_view">Bouton sauvegarde</string>
+    <string name="this_is_permissions_view">Bouton permissions</string>
+    <string name="this_is_web_services_view">Bouton web services</string>
+    <string name="on_start_state">Application en fonctionnement</string>
+    <string name="disconnect">Déconnexion</string>
+    <string name="name">Prénom</string>
+    <string name="surname">Nome de famille</string>
+    <string name="date_of_birth">Date de naissance</string>
+    <string name="informations">Accéder aux informations</string>
+    <string name="picture">Prendre une photo</string>
+    <string name="number_tel">Numéro</string>
+    <string name="registration">Registration</string>
+    <string name="register">Inscrivez - vous !</string>
+    <string name="passw">Password</string>
+    <string name="confirmPassw">Confirm Password</string>
+    <string name="email">E-mail Address</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="contact_data">contact@aled.com</string>
+    <string name="newAccount">Vous n\'avez pas encore de compte ?</string>
+    <string name="do_diagnostic">Faire Mon Diagnostic</string>
+    <string name="titleALEDWeb">Site "ALED"</string>
+    <string name="titleCustomerService">Service Client</string>
+    <string name="titleContact">Contact</string>
+    <string name="titleAboutUs">Sur nous</string>
+    <string name="faq">Questions fréquentes</string>
+<!--    <string name="webSiteDescription">Medical Desertification is a website where you can do your own diagnosis to help for the organisation of doctor\'s days</string>-->
+    <string name="webSiteDescription">Medical Desertification est un site web sur lequel vous pouvez faire votre propre diagnostic. Cela prévient la pénurie de médecin en vous permettant d\'avoir un pre-diagnostic rapide, gratuit, et aide dans l\'organisation de la journée de visites à domicile. </string>
+    <string name="contactInfo">Informations</string>
+    <string name="myAccount">Mon compte</string>
+    <string name="generalPolicy">Conditions Générales</string>
+    <string name="welcome"><u>Medical Desertification</u>\n<b>Bienvenue</b></string>
+    <string name="welcomeConnected"><u>Medical Desertification</u>\n<b>Bienvenue</b></string>
+    <string name="feelSick">Remplir le formulaire pour avoir un pré-diagnostic :</string>
+    <string name="accessForm">Accéder au formulaire</string>
+    <string name="notAsRealDoctor">En aucun cas les résultats donnés ne remplacent un vrai médecin</string>
+    <string name="testFollowLine">Test de mouvement\nFaites le tour de l\'étoile en commençant par le haut</string>
+    <string name="next">Suivant</string>
+    <string name="edit">Edit</string>
+    <string name="start">Commencez</string>
+    <string name="starToFollow">Etoile à contourner</string>
+    <string name="emergencyCall">Appel d\'urgence</string>
+    <string name="camera">Camera</string>
+    <string name="emergency">C\'est une urgence \nAppuyez sur le bouton !</string>
+    <string name="goHomePage">Aller sur la page d\'accueil</string>
+    <string name="seeMap">Lancer la carte</string>
+    <string name="history">Voir l\'historique</string>
+    <string name="stringPasswordInfo">Le mot de passe doit contenir au moins un nombre et une majuscule</string>
+    <string name="emailError">S\'il vous plaît entrez un email valide</string>
+    <string name="noSpace">Il ne faut pas d\'espace au prénom et nom de famille</string>
+    <string name="noSpaceSecretAnswer">Evitez de mettre plusieurs mots pour mieux vous souvenir de votre réponse secrète</string>
+    <string name="ok">Tout est  OK</string>
+    <string name="emailAlreadyUsed">Cet eMail est déjà utilisé</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="callDoctorNow">Applez un medecin maintenant</string>
+    <string name="modifyContactInfo">Modifier vos informations personnelles</string>
+    <string name="secretQuestion">Question Secrete</string>
+    <string name="editProfile">Modifier son profil</string>
+    <string name="toDisconnect">Se déconnecter</string>
+    <string name="account">Compte</string>
+    <string name="health">Santé</string>
+    <string name="callDoctor">Appeler un médecin</string>
+    <string name="doDiagnosis">Avoir un diagnostic</string>
+    <string name="connect">Se connecter</string>
+    <string name="createAccount">Créer un compte</string>
+    <string name="contact">Contact</string>
+    <string name="about">A propos</string>
+    <string name="clientService">Service Client</string>
+    <string name="customerService">Service Client</string>
+    <string name="callWithoutConn">Appelez d\'urgence sans être connecté</string>
+    <string name="app_name_website">Medical Desertification Website</string>
+    <string name="phoneContact">+33 6 12 34 56 78</string>
+    <string name="sosDescription">Appuyez pour appeler un médecin immédiatement</string>
+    <string name="ines_email">ines.dobosz@hotmail.fr</string>
+    <string name="azerty">azerty</string>
+    <string name="showHideDescription">Afficher / Cacher le mot de passe</string>
+    <string-array name="secretQuestion">
+        <item>Quelle est la chanson que je déteste le plus ?</item>
+        <item>Quel est le nom de mon medecin traitant d\'enfance</item>
+        <item>Quel est le nom de famille de mon premier amour ?</item>
+        <item>Quel est le nom de mon premier animal domestique ?</item>
+        <item>Quel est le nom de mon professeur de primaire ?</item>
+    </string-array>
+</resources>
