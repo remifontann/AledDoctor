@@ -29,6 +29,11 @@ class HomeConnectedFragment: Fragment(), View.OnTouchListener{
         val b: ImageButton = view.findViewById(R.id.homeButton)
         b.setOnClickListener(){ }
 
+        val c: ImageButton = view.findViewById(R.id.mapButton)
+        c.setOnClickListener {
+            val intent = Intent(activity!!.application, GoogleMapInfoWindowActivity::class.java)
+            startActivity(intent)
+        }
 
         val form: TextView = view.findViewById(R.id.accessFormTextViewClickable)
         form.setOnClickListener(){

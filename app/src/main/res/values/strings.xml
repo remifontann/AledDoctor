@@ -42,7 +42,7 @@
     <string name="titleContact">Contact</string>
     <string name="titleAboutUs">Sur nous</string>
     <string name="faq">Questions fréquentes</string>
-<!--    <string name="webSiteDescription">Medical Desertification is a website where you can do your own diagnosis to help for the organisation of doctor\'s days</string>-->
+    <!--    <string name="webSiteDescription">Medical Desertification is a website where you can do your own diagnosis to help for the organisation of doctor\'s days</string>-->
     <string name="webSiteDescription">Medical Desertification est un site web sur lequel vous pouvez faire votre propre diagnostic. Cela prévient la pénurie de médecin en vous permettant d\'avoir un pre-diagnostic rapide, gratuit, et aide dans l\'organisation de la journée de visites à domicile. </string>
     <string name="contactInfo">Informations</string>
     <string name="myAccount">Mon compte</string>
@@ -101,4 +101,7 @@
         <item>Quel est le nom de mon premier animal domestique ?</item>
         <item>Quel est le nom de mon professeur de primaire ?</item>
     </string-array>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDdzyDKKXhzXn9fiUBJfNjo-6VGGweVMK8</string>
+    <string name="request_client_id">521908361420-1hacja3m1g23geukrkotue8qojko5m6b.apps.googleusercontent.com</string>
+    <string name="title_activity_google_map_info_window">Map</string>
 </resources>
