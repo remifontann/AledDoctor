@@ -31,22 +31,10 @@
         android:textColor="@color/colorConnectText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintHorizontal_bias="0.383"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordEditText"
-        app:layout_constraintVertical_bias="0.207" />
-
-    <Button
-        android:id="@+id/testButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/register"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.23"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordEditText"
-        app:layout_constraintVertical_bias="0.207" />
+        app:layout_constraintVertical_bias="0.217" />
 
     <EditText
         android:id="@+id/emailEditText"
@@ -77,30 +65,18 @@
         android:autofillHints="@string/passw" />
 
     <TextView
-        android:id="@+id/newAccountTextView"
+        android:id="@+id/registerWithCustomerService"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="44dp"
         android:clickable="true"
         android:focusable="true"
-        android:text="@string/callWithoutConn"
+        android:text="@string/registerWithCustomerService"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/testButton" />
-
-    <ImageButton
-        android:id="@+id/sosButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:contentDescription="@string/sosDescription"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/newAccountTextView"
-        app:srcCompat="@drawable/heartsosresized" />
+        app:layout_constraintTop_toBottomOf="@+id/validateButton" />
 
     <ImageButton
         android:id="@+id/toggleShowHidePasswButton"

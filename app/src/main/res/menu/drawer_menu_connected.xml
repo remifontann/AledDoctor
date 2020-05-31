@@ -11,33 +11,11 @@
 
             </item>
 
-            <item
-                android:id="@+id/nav_edit_profile"
-                android:icon="@drawable/ic_email"
-                android:title="@string/editProfile">
-
-        </item>
 
             </menu>
         </item>
-    <item android:title="@string/health">
-        <menu>
-            <item
-                android:id="@+id/nav_call_doctor"
-                android:icon="@drawable/ic_share"
-                android:title="@string/callDoctor" />
-            <item
-                android:id="@+id/nav_do_diagnosis"
-                android:icon="@drawable/ic_share"
-                android:title="@string/doDiagnosis" />
-        </menu>
-    </item>
     <item android:title="@string/contact">
         <menu>
-            <item
-                android:id="@+id/nav_about_us"
-                android:icon="@drawable/ic_share"
-                android:title="@string/about" />
             <item
                 android:id="@+id/nav_contact"
                 android:icon="@drawable/ic_share"

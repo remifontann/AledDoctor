@@ -51,14 +51,7 @@ class HomeActivity : AppCompatActivity(), View.OnTouchListener, NavigationView.O
         System.out.println("newtime :"+newTime)
         val sharedPrefLogs : SharedPreferences = getSharedPreferences("isConnected", Context.MODE_PRIVATE)
         val stateConnection = sharedPrefLogs.getBoolean("isConn", false)
-        if(ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this,arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE),StarActivity.writeESRequestCode
-            )
-        }
-        if(ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this,arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE),StarActivity.readESRequestCode
-            )
-        }
+
         if(stateConnection) {
 //            val toolbar = findViewById<Toolbar>(R.id.toolbar)
 //            setSupportActionBar(toolbar)
@@ -492,18 +485,11 @@ private fun isExternalStorageWritable():Boolean{
         when(item.getItemId()){
             // R.id.nav_connect -> supportFragmentManager.beginTransaction().replace(R.layout.activity_login,MessageFragment()).commit()
             R.id.nav_connect -> intent = Intent(this, LoginActivity::class.java)
-            R.id.nav_sign_in -> intent = Intent(this, RegistrationActivity::class.java)
 
-           // R.id.nav_chat -> supportFragmentManager.beginTransaction().replace(R.id.fragment_container,ChatFragment()).commit()
-            R.id.action_user_info -> intent = Intent(this, UserInfoActivity::class.java)
             //R.id.nav_sign_in -> setContentView(R.layout.activity_registration)
             //R.id.nav_sign_in -> supportFragmentManager.beginTransaction().replace(R.layout.activity_registration,ProfileFragment()).commit()
 
             R.id.nav_contact -> intent = Intent(this, ContactFragment::class.java)
-                //supportFragmentManager.beginTransaction().replace(R.id.fragment_container,ContactFragment()).commit()
-            R.id.nav_about_us -> supportFragmentManager.beginTransaction().replace(R.id.fragment_container,LoginFragment()).commit()
-            //R.id.nav_contact -> Toast.makeText(this,"share", Toast.LENGTH_SHORT).show()
-            //R.id.nav_client -> Toast.makeText(this,"send", Toast.LENGTH_SHORT).show()
         }
         startActivity(intent)
         drawer_layout.closeDrawer(GravityCompat.START)
@@ -571,39 +557,6 @@ private fun isExternalStorageWritable():Boolean{
         startActivity(intent)
         return true
         //return super.onOptionsItemSelected(item)
-    }
-    fun writeFile(coords1: String, coords2: String){
-        System.out.println(readString)
-        val state = Environment.getExternalStorageState()
-        var success = true
-        val root = Environment.getExternalStorageDirectory()
-
-        if(Environment.MEDIA_MOUNTED.equals((state))){
-            val dir = File(root.absolutePath+"/myAppFile")
-            System.out.println(dir)
-            if(!dir.exists()){
-                success = dir.mkdir()
-                System.out.println("does not exists yet")
-            }
-            else{
-                System.out.println("exists")
-            }
-            if (success) {
-                //val file = File(dir, "clickPos.txt")
-                try {
-                    /*val fos = FileOutputStream(file)
-                    fos.write(readString!!.toByteArray())
-                    fos.close()*/
-                    File(dir.name).writeText(coords1)
-                    File(dir.name).writeText(coords2)
-                    System.out.println("SAVED")
-                } catch (e: FileNotFoundException) {
-                    e.printStackTrace()
-                } catch (e: IOException) {
-                    e.printStackTrace()
-                }
-            }
-        }
     }
 //
 //    fun save(){ //write in the save file
