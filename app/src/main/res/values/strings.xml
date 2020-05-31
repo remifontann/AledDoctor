@@ -94,6 +94,10 @@
     <string name="ines_email">ines.dobosz@hotmail.fr</string>
     <string name="azerty">azerty</string>
     <string name="showHideDescription">Afficher / Cacher le mot de passe</string>
+    <string name="registerWithCustomerService">Pour vous inscrire, contacter le service client</string>
+    <string name="vous_vous_tes_correctement_connect">Vous vous êtes correctement connecté !</string>
+    <string name="vous_tes_m_decin_nsi_vous_n_tes_pas_inscrit_appelez_le_service_client_dans_la_page_contact_qui_vous_fournira_vos_identifiants_nsi_vous_avez_d_j_un_compte_connectez_vous">Vous êtes médecin ? \nSi vous n\'êtes pas inscrit, appelez le service client dans la page Contact, qui vous fournira vos identifiants.\nSi vous avez déjà un compte, connectez vous !</string>
+    <string name="cette_application_permet_aux_m_decins_de_venir_en_aide_distance_aux_patients_malades">Cette application permet aux médecins de venir en aide à distance aux patients malades.</string>
     <string-array name="secretQuestion">
         <item>Quelle est la chanson que je déteste le plus ?</item>
         <item>Quel est le nom de mon medecin traitant d\'enfance</item>

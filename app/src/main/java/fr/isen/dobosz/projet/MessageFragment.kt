@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
-import fr.isen.dobosz.projet.R.layout.fragment_message
 import fr.isen.dobosz.projet.R.layout.fragment_profile
 
 class MessageFragment: Fragment(){

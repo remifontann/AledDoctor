@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        val toggle: ActionBarDrawerToggle = ActionBarDrawerToggle(this,drawer_layout, toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close)
+        val toggle = ActionBarDrawerToggle(this,drawer_layout, toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close)
         val navigationView = findViewById<NavigationView>(R.id.nav_view)
        navigationView.setNavigationItemSelectedListener(this)
 
@@ -60,16 +60,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         when(item.getItemId()){
            // R.id.nav_connect -> supportFragmentManager.beginTransaction().replace(R.layout.activity_login,MessageFragment()).commit()
             R.id.nav_connect -> intent = Intent(this, LoginActivity::class.java)
-            R.id.nav_sign_in -> intent = Intent(this, RegistrationActivity::class.java)
 
 
             //R.id.nav_sign_in -> setContentView(R.layout.activity_registration)
             //R.id.nav_sign_in -> supportFragmentManager.beginTransaction().replace(R.layout.activity_registration,ProfileFragment()).commit()
 
-            R.id.nav_contact -> supportFragmentManager.beginTransaction().replace(R.id.fragment_container,LoginFragment()).commit()
-            R.id.nav_about_us -> supportFragmentManager.beginTransaction().replace(R.id.fragment_container,LoginFragment()).commit()
-            //R.id.nav_contact -> Toast.makeText(this,"share", Toast.LENGTH_SHORT).show()
-            //R.id.nav_client -> Toast.makeText(this,"send", Toast.LENGTH_SHORT).show()
+            //R.id.nav_contact -> supportFragmentManager.beginTransaction().replace(R.id.fragment_container,LoginFragment()).commit()
+
 
         }
         startActivity(intent)

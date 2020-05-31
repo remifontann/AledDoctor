@@ -30,7 +30,11 @@ class LoginActivity : AppCompatActivity() {
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance()
         findViewById<Button>(R.id.validateButton).setOnClickListener {
-            doLogin()
+            val intent = Intent(this, HomeActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(intent)
+           // doLogin()
+
         }
 
         var passwShown = false
@@ -54,18 +58,6 @@ class LoginActivity : AppCompatActivity() {
 
         }
 
-        //val user = FirebaseAuth.getInstance().currentUser
-
-        findViewById<Button>(R.id.testButton).setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
-
-        newAccountTextView.setOnClickListener {
-            val intent = Intent(this, RegistrationActivity::class.java)
-            startActivity(intent)
-        }
-
     }
 
 
@@ -82,7 +74,7 @@ class LoginActivity : AppCompatActivity() {
             ) { task ->
                 if (task.isSuccessful) { // Sign in success, update UI with the signed-in user's information
                     Log.d("login", "signInWithEmail:success")
-                    val user = mAuth!!.currentUser
+                    //val user = mAuth!!.currentUser
 
                     val sharedPrefLogs: SharedPreferences =
                         getSharedPreferences("isConnected", Context.MODE_PRIVATE)
